@@ -16,4 +16,6 @@ public interface CustomerService {
 
     Customers updateCustomer(Integer id, Customers customer);
 
+    Customers getCustomerByIdNoPassword(Integer customer_id);
+
 }

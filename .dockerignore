@@ -1,0 +1,19 @@
+# Ignore Maven build artifacts
+target/
+
+# Ignore IDE-related files
+.idea/
+*.iml
+
+# Ignore Git-related files
+.git/
+.gitignore
+
+# Ignore Docker-related files (if any)
+Dockerfile
+.dockerignore
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
