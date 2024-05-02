@@ -19,5 +19,5 @@ COPY --from=build /app/target/java-project-1.jar .
 
 EXPOSE 8081
 
-# Specify the command to run the Spring Boot application
+
 CMD ["java", "-jar", "java-project-1.jar"]
